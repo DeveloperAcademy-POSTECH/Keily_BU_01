@@ -30,14 +30,6 @@ struct ContentView: View {
     }
 }
 
-struct Words: Codable {
-    let words: [String]
-}
-
-struct Word: Codable {
-    let word: String
-}
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
