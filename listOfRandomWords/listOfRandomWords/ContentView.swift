@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    /// 변수 선언
+    /// - numbersOfWords: 불러올 단어의 개수
     @State var numbersOfWords = 10
     
     var body: some View {
